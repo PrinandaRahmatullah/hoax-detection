@@ -5,7 +5,8 @@ Code Implementation from Big Data Challenge on Satria Data 2020
 ### Technologies
 
 - Machine Learning with NLP
-- Recurrent Neural Network
+- Recurrent Neural Network (RNN)
+- Convolutinal Neural Network (CNN)
 - BERT
 
 ## Dataset
@@ -19,10 +20,18 @@ Validation accuracy shown below :wink:
 
 ### Traditional Machine Learning with NLP Technique
 
-| NLP             | KNN  | Naive Bayes | SVM  |
-| --------------- | ---- | ----------- | ---- |
-| CountVectorizer | 0.78 | 0.72        | 0.83 |
-| TF-IDF          | 0.75 | 0.72        | 0.83 |
+| NLP                                                                                                                      | KNN  | Naive Bayes | SVM  |
+| ------------------------------------------------------------------------------------------------------------------------ | ---- | ----------- | ---- |
+| [CountVectorizer](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/count_vectorizer.ipynb) | 0.78 | 0.71        | 0.82 |
+| [TF-IDF](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/tf_idf.ipynb)                    | 0.75 | 0.72        | 0.83 |
 
 Actually, validation accuracy is not enough to determine performance from model.
 We need actual label from this competition organizer to get model's performance in predicting document whether hoax or not.
+
+### Recurrent Neural Network (RNN)
+
+**Soon**
+
+### Convolutional Neural Network (CNN)
+
+**Soon**
