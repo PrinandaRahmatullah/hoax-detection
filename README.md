@@ -5,8 +5,7 @@ Code Implementation from Big Data Challenge on Satria Data 2020
 ### Technologies
 
 - Machine Learning with NLP
-- Recurrent Neural Network (RNN)
-- Convolutinal Neural Network (CNN)
+- Neural Network (NN)
 - BERT
 
 ## Dataset
@@ -23,15 +22,21 @@ Validation accuracy shown below :wink:
 | NLP                                                                                                                      | KNN  | Naive Bayes | SVM  |
 | ------------------------------------------------------------------------------------------------------------------------ | ---- | ----------- | ---- |
 | [CountVectorizer](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/count_vectorizer.ipynb) | 0.78 | 0.71        | 0.82 |
-| [TF-IDF](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/tf_idf.ipynb)                    | 0.75 | 0.72        | 0.83 |
+| [TF-IDF](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/tf_idf.ipynb)                    | 0.73 | 0.73        | 0.83 |
+
+### Neural Network (NN)
+
+| Neural Network     | Accuracy | Loss |
+| ------------------ | -------- | ---- |
+| [Word Embedding]() |          |      |
+| [RNN-LSTM]()       |          |      |
+| [CNN]()            |          |      |
+
+### BERT
+
+**Soon**
+
+## Conclusion
 
 Actually, validation accuracy is not enough to determine performance from model.
-We need actual label from this competition organizer to get model's performance in predicting document whether hoax or not.
-
-### Recurrent Neural Network (RNN)
-
-**Soon**
-
-### Convolutional Neural Network (CNN)
-
-**Soon**
+We need actual label from this competition organizer to get model's performance in predicting document whether hoax or not. At least, we know the steps binary classification on detecting hoax. I'm waiting for your outstanding project.
