@@ -21,7 +21,7 @@ Validation accuracy shown below :wink:
 
 | NLP                                                                                                                      | KNN  | Naive Bayes | SVM  |
 | ------------------------------------------------------------------------------------------------------------------------ | ---- | ----------- | ---- |
-| [CountVectorizer](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/count_vectorizer.ipynb) | 0.78 | 0.71        | 0.82 |
+| [CountVectorizer](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/count_vectorizer.ipynb) | 0.77 | 0.73        | 0.83 |
 | [TF-IDF](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/tf_idf.ipynb)                    | 0.73 | 0.73        | 0.83 |
 
 ### Neural Network (NN)
