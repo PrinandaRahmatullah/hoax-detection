@@ -10,27 +10,26 @@ Code Implementation from Big Data Challenge on Satria Data 2020
 
 ## Dataset
 
-You can download dataset from [This link](https://drive.google.com/drive/folders/1KFBPq1orHLW2XSsRFiTHbYAsJ4Gr2i0V?usp=sharing) :wink:
+Download dataset from [This link](https://drive.google.com/drive/folders/1KFBPq1orHLW2XSsRFiTHbYAsJ4Gr2i0V?usp=sharing)
 
 ## Results
 
-Results from hoax detection experiment using each algorithms is on **result** directory.
-Validation accuracy shown below :wink:
+Label Predictions from the experiment test data are on **result** directory. Validation accuracy are shown below:
 
 ### Traditional Machine Learning with NLP Technique
 
-| NLP                                                                                                                      | KNN  | Naive Bayes | SVM  |
-| ------------------------------------------------------------------------------------------------------------------------ | ---- | ----------- | ---- |
-| [CountVectorizer](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/count_vectorizer.ipynb) | 0.77 | 0.73        | 0.83 |
-| [TF-IDF](https://github.com/PrinandaRahmatullah/hoax-detection/blob/main/traditional_ml/tf_idf.ipynb)                    | 0.73 | 0.73        | 0.83 |
+| NLP                 | KNN  | Naive Bayes | SVM  |
+| ------------------- | ---- | ----------- | ---- |
+| [CountVectorizer]() | 0.77 | 0.73        | 0.83 |
+| [TF-IDF]()          | 0.73 | 0.73        | 0.83 |
 
 ### Neural Network (NN)
 
-| Neural Network     | Accuracy | Loss |
-| ------------------ | -------- | ---- |
-| [Word Embedding]() |          |      |
-| [RNN-LSTM]()       |          |      |
-| [CNN]()            |          |      |
+| Neural Network     | Accuracy | Loss   | Val Accuracy | Val Loss |
+| ------------------ | -------- | ------ | ------------ | -------- |
+| [Word Embedding]() | 0.9214   | 0.2000 | 0.8406       | 0.4218   |
+| [RNN-LSTM]()       |          |        |              |          |
+| [CNN]()            |          |        |              |          |
 
 ### BERT
 
