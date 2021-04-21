@@ -18,18 +18,20 @@ Label Predictions from the experiment test data are on **result** directory. Val
 
 ### Traditional Machine Learning with NLP Technique
 
-| NLP                 | KNN  | Naive Bayes | SVM  |
-| ------------------- | ---- | ----------- | ---- |
-| [CountVectorizer]() | 0.77 | 0.73        | 0.83 |
-| [TF-IDF]()          | 0.73 | 0.73        | 0.83 |
+| NLP                  | KNN  | Naive Bayes | SVM  |
+| -------------------- | ---- | ----------- | ---- |
+| [CountVectorizer](#) | 0.77 | 0.73        | 0.83 |
+| [TF-IDF](#)          | 0.73 | 0.73        | 0.83 |
 
 ### Neural Network (NN)
 
-| Neural Network     | Accuracy | Loss   | Val Accuracy | Val Loss |
-| ------------------ | -------- | ------ | ------------ | -------- |
-| [Word Embedding]() | 0.8750   | 0.2697 | 0.8264       | 0.4235   |
-| [RNN-LSTM]()       |          |        |              |          |
-| [CNN]()            |          |        |              |          |
+Word Embedding and LSTM use text dataset, whereas CNN use image dataset
+
+| Neural Network      | Accuracy | Loss   | Val Accuracy | Val Loss |
+| ------------------- | -------- | ------ | ------------ | -------- |
+| [Word Embedding](#) | 0.8750   | 0.2697 | 0.8264       | 0.4235   |
+| [RNN-LSTM](#)       |          |        |              |          |
+| [CNN](#)            |          |        |              |          |
 
 ### BERT
 
