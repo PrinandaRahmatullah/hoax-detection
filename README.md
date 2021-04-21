@@ -27,7 +27,7 @@ Label Predictions from the experiment test data are on **result** directory. Val
 
 | Neural Network     | Accuracy | Loss   | Val Accuracy | Val Loss |
 | ------------------ | -------- | ------ | ------------ | -------- |
-| [Word Embedding]() | 0.9214   | 0.2000 | 0.8406       | 0.4218   |
+| [Word Embedding]() | 0.8750   | 0.2697 | 0.8264       | 0.4235   |
 | [RNN-LSTM]()       |          |        |              |          |
 | [CNN]()            |          |        |              |          |
 
