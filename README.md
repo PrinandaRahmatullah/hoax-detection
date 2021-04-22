@@ -30,7 +30,7 @@ Word Embedding and LSTM use text dataset, whereas CNN use image dataset
 | Neural Network      | Accuracy | Loss   | Val Accuracy | Val Loss |
 | ------------------- | -------- | ------ | ------------ | -------- |
 | [Word Embedding](#) | 0.8750   | 0.2697 | 0.8264       | 0.4235   |
-| [RNN-LSTM](#)       |          |        |              |          |
+| [RNN-LSTM](#)       | 0.8189   | 0.6469 | 0.8194       | 0.6468   |
 | [CNN](#)            |          |        |              |          |
 
 ### BERT
