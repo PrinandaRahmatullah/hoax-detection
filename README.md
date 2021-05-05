@@ -31,7 +31,9 @@ Word Embedding and LSTM use text dataset, whereas CNN use image dataset
 | ------------------- | -------- | ------ | ------------ | -------- |
 | [Word Embedding](#) | 0.9501   | 0.4315 | 0.8571       | 0.4939   |
 | [RNN-LSTM](#)       | 0.8924   | 0.2735 | 0.8300       | 0.4585   |
-| [CNN](#)            |          |        |              |          |
+| [CNN](#)            | 0.8171   | 0.6627 | 0.8388       | 0.6606   |
+
+_Results from CNN still inaccurate due to imbalance data_
 
 ### BERT
 
